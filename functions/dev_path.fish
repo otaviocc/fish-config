@@ -1,3 +1,3 @@
 function dev_path
-    echo (homedir)"/Developer"
+    echo (home_path)"/Developer"
 end
