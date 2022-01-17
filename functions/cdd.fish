@@ -1,3 +1,3 @@
 function cdd -d 'Opens Developer directory'
-    cd ~/Developer
+    cd (dev_path)
 end
