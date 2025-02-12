@@ -1,4 +1,5 @@
-if test -d $HOME/.rbenv/bin
-    set -x PATH $PATH $HOME/.rbenv/bin
-    status --is-interactive; and rbenv init - fish | source
+if which rbenv > /dev/null
+    if status --is-interactive
+        rbenv init - fish | source
+    end
 end
