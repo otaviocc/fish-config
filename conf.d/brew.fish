@@ -1,3 +1,3 @@
-if test -f /opt/homebrew/bin/fish
-    set -x PATH /opt/homebrew/bin $PATH
+if command -v brew > /dev/null 2>&1
+    set -x PATH $PATH /opt/homebrew/bin 
 end
