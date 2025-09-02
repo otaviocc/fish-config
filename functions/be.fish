@@ -1,3 +1,3 @@
-function be -d 'Invokes bundle exec'
+function be --description 'Alias for bundle exec'
     command bundle exec $argv
 end

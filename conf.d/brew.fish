@@ -1,3 +1,3 @@
 if test -f /opt/homebrew/bin/brew
-    set -x PATH $PATH /opt/homebrew/bin
+    fish_add_path /opt/homebrew/bin
 end

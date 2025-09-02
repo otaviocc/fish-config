@@ -1,3 +1,3 @@
-function cdd -d 'Opens Developer directory'
+function cdd --description 'Opens Developer directory'
     cd (dev_path)
 end

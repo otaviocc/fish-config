@@ -1,6 +1,3 @@
-# CocoaPods
-set -x COCOAPODS_DISABLE_STATS 1
-
 # Homebrew
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x HOMEBREW_NO_AUTO_UPDATE 1

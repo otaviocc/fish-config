@@ -1,3 +1,3 @@
-function mkdir-cd
-    mkdir -p -- $argv && cd -- $argv
+function mkdir-cd --description "Creates a directory and changes into it."
+    mkdir -p -- $argv; and cd -- $argv[1]
 end
