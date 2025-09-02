@@ -2,6 +2,23 @@
 
 This repository contains the personal `fish` shell configuration of @otaviocc.
 
+## Requirements
+
+This configuration depends on the following tools, which can be installed with [Homebrew](https://brew.sh):
+
+- `jq`
+- `fzf`
+- `carthage`
+- `mint`
+- `openjdk@17`
+- `bundler`
+
+You can install them by running:
+
+```sh
+brew install jq fzf carthage mint openjdk@17 bundler
+```
+
 ## Installation
 
 1.  Clone this repository to a desired location. For example, `~/.dotfiles/fish`:
