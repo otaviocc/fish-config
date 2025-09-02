@@ -1,4 +1,9 @@
 function git_change_author --description "Change the author of a specific git commit"
+    if not command -v perl >/dev/null
+        echo "Error: perl is not installed. Please install it to use this function." >&2
+        return 1
+    end
+
     # Check argument count
     if test (count $argv) -ne 2
         echo "Usage: git_change_author <author> <commit>" >&2
