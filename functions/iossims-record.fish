@@ -31,7 +31,7 @@ function iossims-record --description "Records the screen of a booted iOS simula
         end
     end
 
-    set -l filename "$HOME/Desktop/sim_record_(date +%Y%m%d_%H%M%S).mp4"
+    set -l filename "$HOME/Desktop/sim_record_"(date +%Y%m%d_%H%M%S)".mp4"
     echo "Starting recording for simulator with UDID: $udid"
     echo "Saving to: $filename"
     echo "Press Ctrl-C to stop recording."
